@@ -263,3 +263,67 @@
          }
      
 
+ 
+         table {
+             width: 100%;
+             border-collapse: collapse;
+             margin-top: 20px;
+             margin-bottom: 40px;
+             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+         }
+ 
+         th, td {
+             border: 1px solid #ddd;
+             padding: 12px;
+             text-align: left;
+             vertical-align: middle;
+         }
+ 
+         thead {
+             background-color: #003366; /* Azul escuro UNIVESP */
+             color: #ffffff;
+         }
+ 
+         th {
+             font-weight: bold;
+         }
+ 
+         tbody tr:nth-child(even) {
+             background-color: #f9f9f9;
+         }
+ 
+         tbody tr:hover {
+             background-color: #eef; /* Destaque ao passar o mouse */
+         }
+ 
+         td a {
+             color: #003366;
+             font-weight: 500;
+             text-decoration: none;
+         }
+ 
+         td a:hover {
+             text-decoration: underline;
+         }
+ 
+         #indice ul {
+             list-style-type: none;
+             padding: 0;
+             columns: 2;
+             -webkit-columns: 2;
+             -moz-columns: 2;
+         }
+ 
+         #indice li {
+             margin-bottom: 8px;
+         }
+ 
+         #indice a {
+             text-decoration: none;
+             color: #003366;
+             font-weight: bold;
+         }
+         #indice a:hover {
+             text-decoration: underline;
+         }
+     
